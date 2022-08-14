@@ -1,6 +1,6 @@
 {
 	"Name" : "Meow~",
-	"Description" : "add a 'meow~' at the end side of players chats and displaying in pink",
+	"Description" : "adding a 'meow~' at the end side of players chats and displaying them in pink",
 	"Version": "1.0",
 	"LoadPriority": 2,
 	"RequiredOnClient": false,
