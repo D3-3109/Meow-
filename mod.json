@@ -1,0 +1,20 @@
+{
+	"Name" : "Meow~",
+	"Description" : "add a 'meow~' at the end side of players chats and displaying in pink",
+	"Version": "1.0",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+
+	"Scripts": [
+		{
+			"Path": "meow.nut",
+			"RunOn": "MP",
+			"ClientCallback": {
+				"After": "meow_Init"
+			},
+            "ServerCallback": {
+                "After": "meow_Init"
+            }
+		}
+	]
+}
